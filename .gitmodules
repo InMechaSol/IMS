@@ -1,0 +1,3 @@
+[submodule "CR"]
+	path = CR
+	url = https://github.com/InMechaSol/CR.git
