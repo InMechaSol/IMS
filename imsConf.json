@@ -1,4 +1,8 @@
 {
+  "PathtoGitBinary": "C:\\Program Files\\Git\\bin\\git.exe",
+  "PathtoDoxygenBinary": "C:\\Program Files\\doxygen\\bin\\doxygen.exe",
+  "PathtoGraphizDotBinary": "C:\\Program Files\\Graphviz\\bin\\dot.exe",
+  "PathtoRootRepo": "C:\\IMS",
   "Repositories": [
     {
       "Name": "IMS",
@@ -54,6 +58,4 @@
       "SubModNames": [ "ccACU" ]
     }
   ]
-  }
-
 }
