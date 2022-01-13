@@ -1,0 +1,59 @@
+{
+  "Repositories": [
+    {
+      "Name": "IMS",
+      "URL": "https://github.com/InMechaSol/IMS.git",
+      "SubModNames": [ "CR", "CS", "P" ]
+    },
+    {
+      "Name": "CR",
+      "URL": "https://github.com/InMechaSol/CR.git",
+      "SubModNames": [ "ccACU", "ccACU_Tests", "ccOS", "ccOS_Tests", "ccNOos", "ccNOos_Tests" ]
+    },
+    {
+      "Name": "CS",
+      "URL": "https://github.com/InMechaSol/CS.git",
+      "SubModNames": [ "TS4900ACU" ]
+    },
+    {
+      "Name": "P",
+      "URL": "https://github.com/InMechaSol/P.git"
+    },
+    {
+      "Name": "ccACU",
+      "URL": "https://github.com/InMechaSol/ccACU.git",
+      "SubModNames": [ "ccOS" ]
+    },
+    {
+      "Name": "ccACU_Tests",
+      "URL": "https://github.com/InMechaSol/ccACU_Tests.git",
+      "SubModNames": [ "ccACU" ]
+    },
+    {
+      "Name": "ccNOos",
+      "URL": "https://github.com/InMechaSol/ccNOos.git"
+    },
+    {
+      "Name": "ccNOos_Tests",
+      "URL": "https://github.com/InMechaSol/ccNOos_Tests.git",
+      "SubModNames": [ "ccNOos" ]
+    },
+    {
+      "Name": "ccOS",
+      "URL": "https://github.com/InMechaSol/ccOS.git",
+      "SubModNames": [ "ccNOos" ]
+    },
+    {
+      "Name": "ccOS_Tests",
+      "URL": "https://github.com/InMechaSol/ccOS_Tests.git",
+      "SubModNames": [ "ccOS" ]
+    },
+    {
+      "Name": "TS4900ACU",
+      "URL": "https://github.com/InMechaSol/TS4900ACU.git",
+      "SubModNames": [ "ccACU" ]
+    }
+  ]
+  }
+
+}
