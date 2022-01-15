@@ -71,12 +71,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ccNOos", "ccNOos", "{700F03A0-38EE-46B5-B9DB-55A4B2D73B82}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ccNOos", "ccNOos", "{DB151561-71EE-464D-9FFA-E0D512F6810C}"
-	ProjectSection(SolutionItems) = preProject
-		CR\ccNOos_Tests\ccNOos\tests\Platform_Arduino.h = CR\ccNOos_Tests\ccNOos\tests\Platform_Arduino.h
-		CR\ccNOos_Tests\ccNOos\tests\Platform_PSoC4.h = CR\ccNOos_Tests\ccNOos\tests\Platform_PSoC4.h
-		CR\ccNOos_Tests\ccNOos\tests\Platform_QTCreatorC.h = CR\ccNOos_Tests\ccNOos\tests\Platform_QTCreatorC.h
-		CR\ccNOos_Tests\ccNOos\tests\Platform_Win32.h = CR\ccNOos_Tests\ccNOos\tests\Platform_Win32.h
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ccNOos", "ccNOos", "{71C52384-42AD-412A-98BE-40450D3BFEAB}"
 EndProject
@@ -99,14 +93,28 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8AFA4D11-125A-40CD-8DAB-499B119927E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arduino", "Arduino", "{09B32679-58CB-4EE3-9306-67F7344C6B12}"
+	ProjectSection(SolutionItems) = preProject
+		CR\ccNOos_Tests\ccNOos\tests\Platform_Arduino.h = CR\ccNOos_Tests\ccNOos\tests\Platform_Arduino.h
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PSoC", "PSoC", "{B478F08B-3A9C-4AB2-AEFD-D83D9A8BA397}"
+	ProjectSection(SolutionItems) = preProject
+		CR\ccNOos_Tests\PSoC\PSoC4_Tests.cydsn\main.c = CR\ccNOos_Tests\PSoC\PSoC4_Tests.cydsn\main.c
+		CR\ccNOos_Tests\ccNOos\tests\Platform_PSoC4.h = CR\ccNOos_Tests\ccNOos\tests\Platform_PSoC4.h
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PIC", "PIC", "{DEF7B184-28C7-48A3-8C0A-9AB7C8B43905}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QT_minGW_C", "QT_minGW_C", "{81116863-66AB-4794-97E6-7573F271F434}"
+	ProjectSection(SolutionItems) = preProject
+		CR\ccNOos_Tests\ccNOos\tests\Platform_QTCreatorC.h = CR\ccNOos_Tests\ccNOos\tests\Platform_QTCreatorC.h
+		CR\ccNOos_Tests\QTCreator_C\QTCreator_C.c = CR\ccNOos_Tests\QTCreator_C\QTCreator_C.c
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VS_win32_CPP", "VS_win32_CPP", "{C6532255-76C1-47A2-BA42-C490B4024E0F}"
+	ProjectSection(SolutionItems) = preProject
+		CR\ccNOos_Tests\ccNOos\tests\Platform_Win32.h = CR\ccNOos_Tests\ccNOos\tests\Platform_Win32.h
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RPi3", "RPi3", "{C8459120-16B8-44FA-BCDE-465CC33113BF}"
 EndProject
@@ -164,46 +172,64 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ccOS_Tests_Win32", "CR\ccOS
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlatConsoleTest", "CR\uiWIN32\FlatConsoleTest\FlatConsoleTest.vcxproj", "{5ECC182F-5E24-4757-93DB-C46971F7E1CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMS_Universe", "CR\uiDotNet\Framework\IMS_Universe\IMS_Universe.csproj", "{C3974AD4-3E83-4D16-A480-CC304A810980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug_FlatFiles|Any CPU = Debug_FlatFiles|Any CPU
+		Debug_ccNOosTests|Any CPU = Debug_ccNOosTests|Any CPU
+		Debug_SysTick|Any CPU = Debug_SysTick|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F36F2C2D-8A58-4172-B9C7-5015687084A6}.Debug_FlatFiles|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36F2C2D-8A58-4172-B9C7-5015687084A6}.Debug_ccNOosTests|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36F2C2D-8A58-4172-B9C7-5015687084A6}.Debug_SysTick|Any CPU.ActiveCfg = Debug|Any CPU
 		{F36F2C2D-8A58-4172-B9C7-5015687084A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F36F2C2D-8A58-4172-B9C7-5015687084A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F36F2C2D-8A58-4172-B9C7-5015687084A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F36F2C2D-8A58-4172-B9C7-5015687084A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF6C2CFB-E486-40F2-8B08-3D57588C1584}.Debug_FlatFiles|Any CPU.ActiveCfg = Debug|Win32
+		{BF6C2CFB-E486-40F2-8B08-3D57588C1584}.Debug_ccNOosTests|Any CPU.ActiveCfg = Debug|Win32
+		{BF6C2CFB-E486-40F2-8B08-3D57588C1584}.Debug_SysTick|Any CPU.ActiveCfg = Debug|Win32
 		{BF6C2CFB-E486-40F2-8B08-3D57588C1584}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{BF6C2CFB-E486-40F2-8B08-3D57588C1584}.Debug|Any CPU.Build.0 = Debug|Win32
 		{BF6C2CFB-E486-40F2-8B08-3D57588C1584}.Release|Any CPU.ActiveCfg = Release|Win32
-		{13CC94D9-C400-421A-832A-4B13001D4318}.Debug_FlatFiles|Any CPU.ActiveCfg = Debug|x64
+		{13CC94D9-C400-421A-832A-4B13001D4318}.Debug_ccNOosTests|Any CPU.ActiveCfg = Debug|Win32
+		{13CC94D9-C400-421A-832A-4B13001D4318}.Debug_SysTick|Any CPU.ActiveCfg = Debug|x64
 		{13CC94D9-C400-421A-832A-4B13001D4318}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{13CC94D9-C400-421A-832A-4B13001D4318}.Debug|Any CPU.Build.0 = Debug|Win32
 		{13CC94D9-C400-421A-832A-4B13001D4318}.Release|Any CPU.ActiveCfg = Release|Win32
-		{B43A6FF8-9B27-4310-8E84-454A16E49229}.Debug_FlatFiles|Any CPU.ActiveCfg = Debug|Any CPU
-		{B43A6FF8-9B27-4310-8E84-454A16E49229}.Debug_FlatFiles|Any CPU.Build.0 = Debug|Any CPU
+		{B43A6FF8-9B27-4310-8E84-454A16E49229}.Debug_ccNOosTests|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43A6FF8-9B27-4310-8E84-454A16E49229}.Debug_SysTick|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43A6FF8-9B27-4310-8E84-454A16E49229}.Debug_SysTick|Any CPU.Build.0 = Debug|Any CPU
 		{B43A6FF8-9B27-4310-8E84-454A16E49229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B43A6FF8-9B27-4310-8E84-454A16E49229}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B43A6FF8-9B27-4310-8E84-454A16E49229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B43A6FF8-9B27-4310-8E84-454A16E49229}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10253D91-39B8-41AF-9767-4E668165C3EA}.Debug_FlatFiles|Any CPU.ActiveCfg = Debug_FlatSysTick|Win32
-		{10253D91-39B8-41AF-9767-4E668165C3EA}.Debug_FlatFiles|Any CPU.Build.0 = Debug_FlatSysTick|Win32
+		{10253D91-39B8-41AF-9767-4E668165C3EA}.Debug_ccNOosTests|Any CPU.ActiveCfg = Debug_ccNOosTests|Win32
+		{10253D91-39B8-41AF-9767-4E668165C3EA}.Debug_ccNOosTests|Any CPU.Build.0 = Debug_ccNOosTests|Win32
+		{10253D91-39B8-41AF-9767-4E668165C3EA}.Debug_SysTick|Any CPU.ActiveCfg = Debug_SysTick|Win32
+		{10253D91-39B8-41AF-9767-4E668165C3EA}.Debug_SysTick|Any CPU.Build.0 = Debug_SysTick|Win32
 		{10253D91-39B8-41AF-9767-4E668165C3EA}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{10253D91-39B8-41AF-9767-4E668165C3EA}.Debug|Any CPU.Build.0 = Debug|Win32
 		{10253D91-39B8-41AF-9767-4E668165C3EA}.Release|Any CPU.ActiveCfg = Release|Win32
-		{7BB4655A-814A-4428-8BF3-08E77DCFF1EA}.Debug_FlatFiles|Any CPU.ActiveCfg = Debug|Win32
+		{7BB4655A-814A-4428-8BF3-08E77DCFF1EA}.Debug_ccNOosTests|Any CPU.ActiveCfg = Debug|Win32
+		{7BB4655A-814A-4428-8BF3-08E77DCFF1EA}.Debug_SysTick|Any CPU.ActiveCfg = Debug|Win32
 		{7BB4655A-814A-4428-8BF3-08E77DCFF1EA}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{7BB4655A-814A-4428-8BF3-08E77DCFF1EA}.Debug|Any CPU.Build.0 = Debug|Win32
 		{7BB4655A-814A-4428-8BF3-08E77DCFF1EA}.Release|Any CPU.ActiveCfg = Release|Win32
-		{5ECC182F-5E24-4757-93DB-C46971F7E1CC}.Debug_FlatFiles|Any CPU.ActiveCfg = Debug|Win32
-		{5ECC182F-5E24-4757-93DB-C46971F7E1CC}.Debug_FlatFiles|Any CPU.Build.0 = Debug|Win32
+		{5ECC182F-5E24-4757-93DB-C46971F7E1CC}.Debug_ccNOosTests|Any CPU.ActiveCfg = Debug|Win32
+		{5ECC182F-5E24-4757-93DB-C46971F7E1CC}.Debug_SysTick|Any CPU.ActiveCfg = Debug|Win32
+		{5ECC182F-5E24-4757-93DB-C46971F7E1CC}.Debug_SysTick|Any CPU.Build.0 = Debug|Win32
 		{5ECC182F-5E24-4757-93DB-C46971F7E1CC}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{5ECC182F-5E24-4757-93DB-C46971F7E1CC}.Debug|Any CPU.Build.0 = Debug|Win32
 		{5ECC182F-5E24-4757-93DB-C46971F7E1CC}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C3974AD4-3E83-4D16-A480-CC304A810980}.Debug_ccNOosTests|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3974AD4-3E83-4D16-A480-CC304A810980}.Debug_SysTick|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3974AD4-3E83-4D16-A480-CC304A810980}.Debug_SysTick|Any CPU.Build.0 = Debug|Any CPU
+		{C3974AD4-3E83-4D16-A480-CC304A810980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3974AD4-3E83-4D16-A480-CC304A810980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3974AD4-3E83-4D16-A480-CC304A810980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3974AD4-3E83-4D16-A480-CC304A810980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -268,6 +294,7 @@ Global
 		{22F17828-880A-43E7-B5A4-3C53A9C8F901} = {84C6806D-137A-4275-AD96-FCFED9578114}
 		{7BB4655A-814A-4428-8BF3-08E77DCFF1EA} = {8AFA4D11-125A-40CD-8DAB-499B119927E5}
 		{5ECC182F-5E24-4757-93DB-C46971F7E1CC} = {AB862E8B-BA56-474F-BA8A-1D7DA54DA18D}
+		{C3974AD4-3E83-4D16-A480-CC304A810980} = {B1A46779-FAA3-4F57-A763-043F58D25956}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89780DB1-FC4B-4D5A-905D-936E0F708E0D}
