@@ -1,3 +1,5 @@
 /.vs
 /Debug
 /GenerateArduinoLib.exe
+/Debug_SysTick
+/Debug_ccNOosTests
