@@ -4,6 +4,7 @@ IMS Source Controlled, index repository of all InMechaSol repositories under sou
 ## To clone and checkout the full IMS repo with all nested submodules
 ```
 git clone https://github.com/InMechaSol/IMS.git --recursive
+cd IMS
 git submodule foreach --recursive git checkout main
 ```
 
