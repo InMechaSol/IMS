@@ -9,7 +9,7 @@ git submodule foreach --recursive git checkout main
 ```
 ## To Update all Nested Submodules from Latest Remotes
 ```bash
-git.exe submodule update --progress --init --recursive --force --merge --remote
+git submodule update --progress --init --recursive --force --merge --remote
 git submodule foreach --recursive git checkout main
 ```
 ## Main Submodules
