@@ -18,7 +18,7 @@ git submodule foreach --recursive git checkout main
 - P - Products are final Computing Products to be tracked via ERP/CM which are built from Compute Solutions
 
 ## IMS Universe
-IMS Universe.sln should be opened in Visual Studio to explore the entire IMS Universe.  Simulations can be run, code can be generated, repositories can be configured, and its always expanding...
+IMS Universe.sln can be opened in Visual Studio to explore the entire IMS Universe.  Simulations can be run, code can be generated, repositories can be configured, and its always expanding...
 ### Configuration File
 ```JSON
 {
