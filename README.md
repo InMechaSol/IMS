@@ -45,7 +45,7 @@ IMS Universe.sln should be opened in Visual Studio to Explore the Entire IMS Uni
     {
       "name": "P",
       "url": "https://github.com/InMechaSol/P.git",
-      "submodnames": [ RECON_ACU, TALON_ACU ]
+      "submodnames": [ "RECON_ACU", "TALON_ACU" ]
     },
     {
       "name": "ccACU",
