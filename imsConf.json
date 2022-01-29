@@ -83,6 +83,20 @@
       "submodnames": [
         "ccACU"
       ]
+    },
+	{
+      "name": "RECON_ACU",
+      "url": "https://github.com/InMechaSol/RECON_ACU.git",
+      "submodnames": [
+	  "TS4900ACU"
+	  ]
+    },
+	{
+      "name": "TALON_ACU",
+      "url": "https://github.com/InMechaSol/RECON_ACU.git",
+      "submodnames": [
+	  "TS4900ACU"
+	  ]
     }
   ]
 }
