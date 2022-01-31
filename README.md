@@ -13,9 +13,9 @@ git submodule update --progress --init --recursive --force --merge --remote
 git submodule foreach --recursive git checkout main
 ```
 ## Main Submodules
-- CR - Compute Resources are reusable cross-platform sources from which Platform Specific Compute Solutions are built
-- CS - Compute Solutions are Platform Specific Applications to be tracked via ERP/CM and from which Products are built
-- P - Products are final Computing Products to be tracked via ERP/CM which are built from Compute Solutions
+- [CR](https://github.com/InMechaSol/CR) - Compute Resources are reusable cross-platform sources from which Platform Specific Compute Solutions are built
+- [CS](https://github.com/InMechaSol/CS) - Compute Solutions are Platform Specific Applications to be tracked via ERP/CM and from which Products are built
+- [P](https://github.com/InMechaSol/P) - Products are final Computing Products to be tracked via ERP/CM which are built from Compute Solutions
 
 ## IMS Universe
 IMS Universe.sln can be opened in Visual Studio to explore the entire IMS Universe.  Simulations can be run, code can be generated, repositories can be configured, and its always expanding...
