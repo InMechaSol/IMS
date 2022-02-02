@@ -1,5 +1,5 @@
-# IMS - an Enterprise Compute Ecosystem Solution
-- the IMS repository is an open source example of InMechaSol's Ecosystem Approach to Enterprise Compute Solutions.  
+# an Enterprise Compute-Ecosystem Solution
+- the IMS repository is an open source example of [InMechaSol](https://www.InMechaSol.org)'s Ecosystem Approach to Enterprise Compute Solutions.  
 - an Ecosystem is comprised of many differenet _human actors_ 
   - (users, operators, developers) 
 - and mixed _compute solutions_ 
@@ -9,7 +9,7 @@
 - Each compute solution within the ecosystem 
   - is created from tested reusable components purpose built for 
     - cross-platform performance guarantees
-    - and intercommunication between layers of mixed Ecosystem _compute solutions_ and _human actors_.
+    - and intercommunication between layers of mixed _compute solutions_ and _human actors_.
 
 ## To Clone and Checkout the Full IMS Repo with all Nested Submodules
 ```bash
