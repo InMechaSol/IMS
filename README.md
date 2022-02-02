@@ -9,7 +9,7 @@
 - each [_Compute Solution_](https://github.com/InMechaSol/CS) within the ecosystem 
   - is created from tested reusable [_Compute Resources_](https://github.com/InMechaSol/CR) purpose built for 
     - cross-platform performance guarantees
-    - and intercommunication between layers of mixed _compute solutions_ and _human actors_.
+    - and intercommunication between layers of mixed [_compute products_ ](https://github.com/InMechaSol/P) and [_human actors_ ](/HumanActors.md).
 ### The Enterprise Solution Maximizes Reuse of Tested Intellectual Property (IP).
 ## Main Submodules
 - [CR](https://github.com/InMechaSol/CR) - Compute Resources are reusable cross-platform sources from which Platform Specific Compute Solutions are built.
