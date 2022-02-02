@@ -1,4 +1,4 @@
-# an Enterprise Compute-Ecosystem Solution
+# an Enterprise Solution
 - the IMS repository is an open source example of [InMechaSol](https://www.InMechaSol.org)'s Ecosystem Approach to Enterprise Compute Solutions.  
 - an Ecosystem is comprised of many differenet [_human actors_ ](/HumanActors.md)
   - (users, operators, [developers](/Developer.md)) 
