@@ -1,5 +1,9 @@
-# IMS
-IMS Source Controlled, index repository of all InMechaSol repositories under source control
+# IMS - an Enterprise Compute Ecosystem Solution
+the IMS repository is an open source example of InMechaSol's Ecosystem Approach to Enterprise Compute Solutions.  an Ecosystem is comprised of many differenet human actors (users, operators, developers) and mixed compute solutions (embedded products, user interfaces, web and IoT).  The Enterprise Architecture is designed to Maximize the Reuse of Tested Intellectual Property (IP).  
+- Each compute solution within the ecosystem 
+  - is created from tested reusable components purpose built for 
+    - cross-platform performance guarantees
+    - and intercommunication between layers of mixed Ecosystem compute solutions and human actors.
 
 ## To Clone and Checkout the Full IMS Repo with all Nested Submodules
 ```bash
