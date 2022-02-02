@@ -101,7 +101,7 @@ IMS Universe.sln can be opened in Visual Studio to explore the entire IMS Univer
     },
     {
       "name": "TALON_ACU",
-      "url": "https://github.com/InMechaSol/RECON_ACU.git",
+      "url": "https://github.com/InMechaSol/TALON_ACU.git",
       "submodnames": [ "TS4900ACU" ]
     }
   ]
