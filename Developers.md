@@ -6,13 +6,14 @@
   - Distributed Platform Build and Test Machines,
   - DevOps Workflows, and
   - Links with ERP/CM systems
-### Ecosystem Architect
-- an Ecosystem Architect creates new
+### Ecosystem Developer
+- an Ecosystem Developer creates new
   - Cross-Platform Application Templates 
   - Application Execution Systems
   - Platform Specifications and Build Machines
 ### Application Developer
 - an Applicatoin Developer creates new
   - Application Modules
-  - Application Device Modules
-  - Console Menu Screens 
+  - User Interfaces
+  - Serialization
+  - Device IO 
