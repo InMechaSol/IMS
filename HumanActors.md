@@ -8,7 +8,7 @@ and having desired experiences in operation, service, and support through genera
 - Operators
   - Production Staff, Service Technicians, Sales and Marketing Teams, Quality Control, ...
   - Those internal to operations of a Product who also use the Product for their specific purposes
-- Developers
+- [Developers](/Developers.md)
   - Enterprise Architect
-  - Application Architect
+  - Ecosystem Developer
   - Application Developer 
