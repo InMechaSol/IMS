@@ -10,7 +10,7 @@
   - is created from tested reusable [_Compute Resources_](https://github.com/InMechaSol/CR) purpose built for 
     - cross-platform performance guarantees
     - and intercommunication between layers of mixed [_compute products_ ](https://github.com/InMechaSol/P) and [_human actors_ ](/HumanActors.md).
-### The Enterprise Solution Maximizes Reuse of Tested Intellectual Property (IP).
+### this Enterprise Solution Maximizes Reuse of Tested Intellectual Property (IP).
 ## Main Submodules
 - [CR](https://github.com/InMechaSol/CR) - Compute Resources are reusable cross-platform sources from which Platform Specific Compute Solutions are built.
 - [CS](https://github.com/InMechaSol/CS) - Compute Solutions are Platform Specific Applications linked to Tested Production Binary Files tracked via ERP/CM.
