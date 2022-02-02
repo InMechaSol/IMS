@@ -4,12 +4,18 @@
   - (users, operators, developers) 
 - and mixed _compute solutions_ 
   - (embedded products, user interfaces, web and IoT).  
-### The Enterprise Architecture Maximizes Reuse of Tested Intellectual Property (IP).  
+  
 ## Promote New Innovation over Recreation!
 - Each compute solution within the ecosystem 
   - is created from tested reusable components purpose built for 
     - cross-platform performance guarantees
     - and intercommunication between layers of mixed _compute solutions_ and _human actors_.
+### The Enterprise Architecture Maximizes Reuse of Tested Intellectual Property (IP).
+- an Enterprise Architect creates and maintains
+  - Repository Hierarchy,
+  - Distributed Platform Build Machines,
+  - DevOps Workflows, and
+  - Links with ERP/CM systems
 
 ## To Clone and Checkout the Full IMS Repo with all Nested Submodules
 ```bash
