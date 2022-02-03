@@ -1,5 +1,21 @@
-# IMS
-IMS Source Controlled, index repository of all InMechaSol repositories under source control
+# an Enterprise Solution
+- the IMS repository is an open source example of [InMechaSol](https://www.InMechaSol.org)'s Ecosystem Approach to Enterprise Compute Solutions.  
+  - an Ecosystem is comprised of many differenet [_human actors_ ](/HumanActors.md)
+    - (users, operators, [developers](/Developer.md)) 
+  - and mixed [_compute products_ ](https://github.com/InMechaSol/P)
+    - (embedded products, user interfaces, web and IoT).  
+  
+## Promote New Innovation over Recreation!
+- each [_Compute Solution_](https://github.com/InMechaSol/CS) within the ecosystem 
+  - is created from tested reusable [_Compute Resources_](https://github.com/InMechaSol/CR) purpose built for 
+    - cross-platform performance guarantees
+    - and intercommunication between layers of mixed [_compute products_ ](https://github.com/InMechaSol/P) and [_human actors_ ](/HumanActors.md).
+### this Enterprise Solution maximizes Reuse of tested Intellectual Property (IP).
+## Main Submodules
+- [CR](https://github.com/InMechaSol/CR) - Compute Resources are reusable cross-platform sources from which Platform Specific Compute Solutions are built.
+- [CS](https://github.com/InMechaSol/CS) - Compute Solutions are Platform Specific Applications linked to Tested Production Binary Files tracked via ERP/CM.
+- [P](https://github.com/InMechaSol/P) - Products contain Tested ERP/CM Controlled Compute Solutions.  Products link to top level P/Ns tracked via ERP/CM. 
+
 
 ## To Clone and Checkout the Full IMS Repo with all Nested Submodules
 ```bash
@@ -12,10 +28,6 @@ git submodule foreach --recursive git checkout main
 git submodule update --progress --init --recursive --force --merge --remote
 git submodule foreach --recursive git checkout main
 ```
-## Main Submodules
-- [CR](https://github.com/InMechaSol/CR) - Compute Resources are reusable cross-platform sources from which Platform Specific Compute Solutions are built
-- [CS](https://github.com/InMechaSol/CS) - Compute Solutions are Platform Specific Applications to be tracked via ERP/CM and from which Products are built
-- [P](https://github.com/InMechaSol/P) - Products are final Computing Products to be tracked via ERP/CM which are built from Compute Solutions
 
 ## IMS Universe
 IMS Universe.sln can be opened in Visual Studio to explore the entire IMS Universe.  Simulations can be run, code can be generated, repositories can be configured, and its always expanding...
@@ -82,14 +94,14 @@ IMS Universe.sln can be opened in Visual Studio to explore the entire IMS Univer
       "url": "https://github.com/InMechaSol/TS4900ACU.git",
       "submodnames": [ "ccACU" ]
     },
-	{
+    {
       "name": "RECON_ACU",
       "url": "https://github.com/InMechaSol/RECON_ACU.git",
       "submodnames": [ "TS4900ACU" ]
     },
-	{
+    {
       "name": "TALON_ACU",
-      "url": "https://github.com/InMechaSol/RECON_ACU.git",
+      "url": "https://github.com/InMechaSol/TALON_ACU.git",
       "submodnames": [ "TS4900ACU" ]
     }
   ]
