@@ -137,6 +137,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMS_Universe", "CR\uiDotNet\Framework\IMS_Universe\IMS_Universe.csproj", "{2DC0B8F4-6F08-4C4D-B2BD-36C48EF8198E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WIN32_Console", "CR\ccOS_Tests\WIN32_Console\WIN32_Console.vcxproj", "{10253D91-39B8-41AF-9767-4E668165C3EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B43A6FF8-9B27-4310-8E84-454A16E49229} = {B43A6FF8-9B27-4310-8E84-454A16E49229}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
