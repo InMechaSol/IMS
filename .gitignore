@@ -3,3 +3,14 @@
 /GenerateArduinoLib.exe
 /Debug_SysTick
 /Debug_ccNOosTests
+/DeployTestProjectPreLink.deps.json
+/DeployTestProjectPreLink.dll
+/DeployTestProjectPreLink.exe
+/DeployTestProjectPreLink.pdb
+/DeployTestProjectPreLink.runtimeconfig.dev.json
+/DeployTestProjectPreLink.runtimeconfig.json
+/ccLib_netCore.dll
+/ccLib_netCore.pdb
+/ccNOos_SatComACS/WIN32_Console.exe
+/ccNOos_SatComACS/WIN32_Console.pdb
+/ref/DeployTestProjectPreLink.dll
