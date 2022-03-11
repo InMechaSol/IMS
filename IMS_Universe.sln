@@ -5,13 +5,18 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IMS", "IMS", "{94B924DD-FD30-49F7-A901-1D6D195B7E3F}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		.gitmodules = .gitmodules
+		Developers.md = Developers.md
+		HumanActors.md = HumanActors.md
 		imsConf.json = imsConf.json
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CR", "CR", "{145C775C-447B-40DB-A952-A55AAAB04B26}"
 	ProjectSection(SolutionItems) = preProject
+		CR\.git = CR\.git
+		CR\.gitignore = CR\.gitignore
 		CR\.gitmodules = CR\.gitmodules
 		CR\README.md = CR\README.md
 	EndProjectSection
@@ -53,6 +58,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects ASP .NET Core", "Projects ASP .NET Core", "{A3941AA4-36E0-4456-AEBB-26A40499B2F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uiDotNet", "uiDotNet", "{BE94BE24-192E-4A73-8571-7DE40B5A375A}"
+	ProjectSection(SolutionItems) = preProject
+		CR\uiDotNet\MDS_Server\MDS_Server.sln = CR\uiDotNet\MDS_Server\MDS_Server.sln
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uiWeb", "uiWeb", "{892268E9-C609-4650-8562-F944CD0B1A59}"
 EndProject
@@ -111,6 +119,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ubuntu", "Ubuntu", "{27385E25-42C5-4A7C-8D8B-291B3881F00C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Win32", "Win32", "{A792CF3A-2152-45E9-85C6-ACE93FAA48FA}"
+	ProjectSection(SolutionItems) = preProject
+		CR\ccOS_Tests\WIN32_Console\WIN32_Console.sln = CR\ccOS_Tests\WIN32_Console\WIN32_Console.sln
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{AB1A0478-CC32-4075-97E8-E14C3467B99D}"
 EndProject
@@ -143,6 +154,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeployTestProjectPreLink", "CR\uiDotNet\Framework\DeployTestProjectPreLink\DeployTestProjectPreLink.csproj", "{62150E8B-71B5-4052-8F80-1B6B3F0A8752}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMS_MDS_WebApp", "CR\uiDotNet\MDS_Server\IMS_MDS_WebApp\IMS_MDS_WebApp.csproj", "{9CC701FB-67DA-4E03-B9CF-8CDA29C7E060}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleUI", "CR\ccOS_Tests\WIN32_Console\ConsoleUI.vcxproj", "{DC30919F-C176-491A-959B-B282F7B70D44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -420,6 +433,46 @@ Global
 		{9CC701FB-67DA-4E03-B9CF-8CDA29C7E060}.Release|x64.Build.0 = Release|Any CPU
 		{9CC701FB-67DA-4E03-B9CF-8CDA29C7E060}.Release|x86.ActiveCfg = Release|Any CPU
 		{9CC701FB-67DA-4E03-B9CF-8CDA29C7E060}.Release|x86.Build.0 = Release|Any CPU
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SatComACS|Any CPU.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SatComACS|Any CPU.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SatComACS|x64.ActiveCfg = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SatComACS|x64.Build.0 = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SatComACS|x86.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SatComACS|x86.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SysTick|Any CPU.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SysTick|Any CPU.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SysTick|x64.ActiveCfg = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SysTick|x64.Build.0 = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SysTick|x86.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_SysTick|x86.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_Tests|Any CPU.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_Tests|Any CPU.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_Tests|x64.ActiveCfg = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_Tests|x64.Build.0 = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_Tests|x86.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccNOos_Tests|x86.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_ccACU|Any CPU.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_ccACU|Any CPU.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_ccACU|x64.ActiveCfg = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_ccACU|x64.Build.0 = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_ccACU|x86.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_ccACU|x86.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_Tests|Any CPU.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_Tests|Any CPU.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_Tests|x64.ActiveCfg = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_Tests|x64.Build.0 = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_Tests|x86.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.ccOS_Tests|x86.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.Debug|x64.ActiveCfg = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.Debug|x64.Build.0 = Debug|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.Debug|x86.Build.0 = Debug|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.Release|Any CPU.ActiveCfg = Release|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.Release|x64.ActiveCfg = Release|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.Release|x64.Build.0 = Release|x64
+		{DC30919F-C176-491A-959B-B282F7B70D44}.Release|x86.ActiveCfg = Release|Win32
+		{DC30919F-C176-491A-959B-B282F7B70D44}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -481,6 +534,7 @@ Global
 		{10253D91-39B8-41AF-9767-4E668165C3EA} = {8AFA4D11-125A-40CD-8DAB-499B119927E5}
 		{62150E8B-71B5-4052-8F80-1B6B3F0A8752} = {8AFA4D11-125A-40CD-8DAB-499B119927E5}
 		{9CC701FB-67DA-4E03-B9CF-8CDA29C7E060} = {A3941AA4-36E0-4456-AEBB-26A40499B2F5}
+		{DC30919F-C176-491A-959B-B282F7B70D44} = {8AFA4D11-125A-40CD-8DAB-499B119927E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89780DB1-FC4B-4D5A-905D-936E0F708E0D}
